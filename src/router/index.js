@@ -1,13 +1,14 @@
 // src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
 import Invitation from '../components/Invitation.vue'
+import home from '../components/home.vue'
 
 const routes = [
   // Home route (optional - you can remove this)
   {
     path: '/',
     name: 'Home',
-    component: Invitation,
+    component: home,
     props: {
       guestName: 'Dear Guest',
       guestSlug: 'default',
